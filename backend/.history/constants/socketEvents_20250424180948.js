@@ -1,0 +1,27 @@
+export const SOCKET_EVENTS = {
+  // Sự kiện liên quan đến Issue
+  CREATE_ISSUE: 'CREATE_ISSUE',
+  UPDATE_ISSUE: 'UPDATE_ISSUE',
+  DELETE_ISSUE: 'DELETE_ISSUE',
+  // Sự kiện liên quan đến Sprint
+  CREATE_SPRINT: 'CREATE_SPRINT',
+  UPDATE_SPRINT: 'UPDATE_SPRINT',
+  DELETE_SPRINT: 'DELETE_SPRINT',
+  START_SPRINT: 'START_SPRINT',
+
+  // Sự kiện liên quan đến Epic
+  CREATE_EPIC: 'CREATE_EPIC',
+  UPDATE_EPIC: 'UPDATE_EPIC',
+  DELETE_EPIC: 'DELETE_EPIC',
+  // Sự kiện liên quan đến Status
+  CREATE_STATUS: 'CREATE_STATUS',
+  UPDATE_STATUS: 'UPDATE_STATUS',
+  DELETE_STATUS: 'DELETE_STATUS',
+  // Sự kiện liên quan đến Project
+  CREATE_PROJECT: 'CREATE_PROJECT',
+  // Sự kiện liên quan đến User (Tài khoản)
+  CREATE_USER: 'CREATE_USER',
+  UPDATE_USER: 'UPDATE_USER',
+  DELETE_USER: 'DELETE_USER',
+};
+
