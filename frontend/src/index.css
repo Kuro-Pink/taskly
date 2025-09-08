@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+body {
+    margin: 0;
+    font-family:
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* index.css */
+.status-todo .gantt_task_content {
+    background-color: #d3d3d3 !important;
+}
+.status-inprogress .gantt_task_content {
+    background-color: #fdd835 !important;
+}
+.status-done .gantt_task_content {
+    background-color: #81c784 !important;
+}
